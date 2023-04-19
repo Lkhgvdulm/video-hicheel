@@ -1,0 +1,26 @@
+/* id class hoyrig ashiglah davuu tal*/
+h1 {
+    color: red;
+}
+#box-2 h1 {
+    color: blueviolet;
+}
+#box-3 h1 {
+    color: aqua;
+}
+*{
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1400px;
+    /* background-color: burlywood; */
+    margin: auto;   
+    /* margin auto ni golluulj ugdug */
+    height: 500px;
+}
+.box {
+    background: #f4f4f4;
+    border: 1px solid #333;
+    padding: 20px;
+    margin-bottom: 15px;
+}

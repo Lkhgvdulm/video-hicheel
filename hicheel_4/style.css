@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    border: 1px solid #444;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    /* ene n delgetsiiig duurtel huvaaj haragduulj ugnu */
+}
+.main-box {
+    display: flex;
+    /* justify-content: flex-start; delgetsnii left buyu ehen hesegt hevtee tenhlegin dagu zeregtsuulelt hiine */
+    /* justify-content: flex-end; delgetsnii tugsgul hesegt zeregtsuulne */
+    /* justify-content: center; hevte tenhlegin daguu tuv hesegt zeregetsuulne */
+    /* justify-content: space-between; delgetsiin hooson zaig duurgej zeregtsuuldeg  */
+    /* justify-content: space-around; element n buh talru tentsuu zeregtsuulne */
+    /* justify-content: space-evenly; delgetsend buh talaasa yg tentsuu zeregtsuuldeg */
+    align-items: flex-start; /* undr ugj bj ene ajillaj bn*/
+    height: 500px;
+    justify-content: space-around;
+    /* align-items: stretch; doosh n duurtel sungaj ugdg */
+}
+.box-2 {
+    /* align-self: center; */
+    /* songoson diviig zeregtsuulj ugdg */
+    flex: 2;
+    
+}
+
